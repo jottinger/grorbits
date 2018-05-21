@@ -160,7 +160,7 @@ public class OrbitDrawingPanel extends DrawingPanel implements MouseListener, Mo
       FontMetrics fm = g2.getFontMetrics();
       
       if (curR > 0) {
-        String sText="r = ".concat(MyUtils.roundOff(curR, 2)).concat(" M;  ").concat("phi = ").concat(MyUtils.roundOff(cPhiDeg, 1)).concat("°");
+        String sText="r = ".concat(MyUtils.roundOff(curR, 2)).concat(" M;  ").concat("phi = ").concat(MyUtils.roundOff(cPhiDeg, 1)).concat("\uc2b0");
         int sW = fm.stringWidth(sText) + 6;
         int sH = fm.getHeight()+2;
         g2.setColor(new Color(207, 207, 255, 120));
